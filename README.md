@@ -12,9 +12,11 @@ Angular CLI: 6.2.1 Node: 8.11.1 OS: win32 x64 Angular: 6.1.7 ... animations, com
 * npm run package     // this will create the deployable web component as angular-web-component.js
 You can use this web component in any JavaScript framework as you wish. E.g. you can modify the index.html to add the script tag:
 
-  <body>
-             ...........
-    <my-web-component></my-web-component>
-             ............
-    <script type="text/javascript" src="../angular-web-component.js"></script>
-  </body>
+  
+              <body>
+                                     ...........
+                      <my-web-component></my-web-component>
+                                     ............
+                      <script type="text/javascript" src="../angular-web-component.js"></script>
+              </body>
+
