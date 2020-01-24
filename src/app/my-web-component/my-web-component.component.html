@@ -1,0 +1,15 @@
+<div style="margin: 10px; text-align: center;">
+  <h2> Posts: </h2>
+  <table class="table-bordered">
+    <tr class="inventory-table-header">
+      <th class="text-center">Post ID</th>
+      <th class="text-center">User ID</th>
+      <th class="text-center">Title</th>
+    </tr>
+    <tr *ngFor="let post of posts">
+      <td>{{post.id}}</td>
+      <td>{{post.userId}}</td>
+      <td>{{post.title}}</td>
+    </tr>
+  </table>
+</div>
